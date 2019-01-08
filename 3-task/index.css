@@ -10,17 +10,26 @@ body{
     grid-gap:10px;
     grid-template-columns: 2fr 2fr 2fr;
 }
-.atm{
+
+.process div {
     height:100%;
     width:100%;
-    background-color:yellow;
-    border-radius:20px
+    border-radius:20px;
 }
+.queue{
+    background-color:pink;
+}
+.free{
+background-color:green;
+}
+.busy{
+    background-color: red;
+}
+
 #but1{
     margin-top:100px;
     text-align: center;
     border-radius:10%;
 }
-.queue{
-    background-color:pink;
-}
+
+
