@@ -39,7 +39,7 @@ function quChecker(){
         },1000) // delay 1 sec
         setTimeout(function(){
             atm1.emit('free')
-        },atmrand)
+        },5000)
         text1.innerText = atm1.count
         quChecker()
     }

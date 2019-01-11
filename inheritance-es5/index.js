@@ -23,3 +23,5 @@ bbb.honeyDealer()
 //anim.honeyDealer()   //error. function honeyDealer only for child ( functionBear)
 
 //https://eli.thegreenplace.net/2013/10/22/classical-inheritance-in-javascript-es5
+
+//https://www.accelebrate.com/blog/javascript-es6-classes-and-prototype-inheritance-part-1-of-2/
