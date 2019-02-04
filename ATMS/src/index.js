@@ -27,5 +27,5 @@ function quChecker () {
 start.onclick = function startWorikngDay () {
   queue.emit('start')
   start.onclick = null
-  setInterval(quChecker, 100)
+  setInterval(quChecker, 100) // чтобы так часто не запускать проверку, можно было придумать еще событий и на них подписаться
 }

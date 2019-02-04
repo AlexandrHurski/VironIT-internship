@@ -21,7 +21,7 @@ Queue.prototype.incr = function () {
   document.getElementById(this.id).innerText = this.counter
 }
 Queue.prototype.decr = function () {
-  this.counter > 0 ? this.counter -= 1 : this.counter = this.counter
+  this.counter > 0 ? this.counter -= 1 : this.counter = this.counter // странная запись this.counter = this.counter
   document.getElementById(this.id).innerText = this.counter
 }
 
